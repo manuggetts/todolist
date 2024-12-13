@@ -181,3 +181,31 @@ button:hover i {
 .modal button:hover {
     background-color: #e04e02;
 }
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 40px;
+    }
+
+    .task-box {
+        max-width: 600px;
+    }
+
+    .input-group {
+        gap: 15px;
+    }
+
+    #task-title {
+        font-size: 18px;
+    }
+
+    #add-task {
+        font-size: 24px;
+    }
+
+    .task {
+        font-size: 18px;
+    }
+}
